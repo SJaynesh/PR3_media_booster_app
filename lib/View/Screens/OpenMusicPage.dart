@@ -49,6 +49,7 @@ class _OpenMusicPageState extends State<OpenMusicPage> {
                   ),
                   IconButton(
                     onPressed: () {
+                      Provider.of<Audio_Provider>(context, listen: false).stopAudio();
                       Navigator.of(context).pop();
                     },
                     icon: Icon(
