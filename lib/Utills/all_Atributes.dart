@@ -162,4 +162,4 @@ List<String> LoveAlbumsImage = [
   LoveAlbumsPath + "shutup.png",
 ];
 
-Duration? totalDuration;
+Duration totalDuration = Duration(seconds: 0);

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:media_booster_app_code/Utills/all_Atributes.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:assets_audio_player/assets_audio_player.dart';
 import 'package:provider/provider.dart';
 
 import '../../Controllers/Audio_Provider.dart';
@@ -19,8 +18,6 @@ class _OpenMusicPageState extends State<OpenMusicPage> {
     Size s = MediaQuery.of(context).size;
     double h = s.height;
     double w = s.width;
-
-    int i = ModalRoute.of(context)!.settings.arguments as int;
 
     return SafeArea(
       child: Scaffold(
@@ -196,18 +193,12 @@ class _OpenMusicPageState extends State<OpenMusicPage> {
                         builder: (context, snapShot) {
                           Duration data = snapShot.data ?? Duration(seconds: 0);
 
-                          try {
-                            totalDuration = Provider.of<Audio_Provider>(context)
-                                .a1
-                                .assetsAudioPlayer!
-                                .current
-                                .value
-                                ?.audio
-                                .duration;
-                          } catch (e) {
-                            totalDuration = Duration(seconds: 0);
-                            print(e);
-                          }
+                          // try {
+                          //   totalDuration = Provider.of<Audio_Provider>(context).a1.assetsAudioPlayer!.current.value?.audio.duration;
+                          // } catch (e) {
+                          //   totalDuration = Duration(seconds: 0);
+                          //   print(e);
+                          // }
 
                           return Column(
                             children: [
@@ -216,18 +207,10 @@ class _OpenMusicPageState extends State<OpenMusicPage> {
                                     const EdgeInsets.only(left: 14, right: 14),
                                 child: Slider(
                                   min: 0,
-                                  max: totalDuration!.inSeconds.toDouble(),
+                                  max: Provider.of<Audio_Provider>(context).a1.totalDuration.inSeconds.toDouble(),
                                   value: data.inSeconds.toDouble(),
                                   onChanged: (val) {
-                                    Provider.of<Audio_Provider>(context,
-                                            listen: false)
-                                        .a1
-                                        .assetsAudioPlayer!
-                                        .seek(
-                                          Duration(
-                                            seconds: val.toInt(),
-                                          ),
-                                        );
+                                    Provider.of<Audio_Provider>(context, listen: false).a1.assetsAudioPlayer!.seek(Duration(seconds: val.toInt()));
                                   },
                                   inactiveColor: Colors.grey,
                                   activeColor: Colors.green,
@@ -249,7 +232,7 @@ class _OpenMusicPageState extends State<OpenMusicPage> {
                                       ),
                                     ),
                                     Text(
-                                      "${totalDuration.toString().split(".")[0]}",
+                                      "${Provider.of<Audio_Provider>(context).a1.totalDuration.toString().split(".")[0]}",
                                       style: GoogleFonts.poppins(
                                         color: Colors.white60,
                                         letterSpacing: 1,
@@ -315,6 +298,9 @@ class _OpenMusicPageState extends State<OpenMusicPage> {
                               Provider.of<Audio_Provider>(context, listen: false).stopAudio();
                               Provider.of<Audio_Provider>(context, listen: false).onIconChange();
                               Provider.of<Audio_Provider>(context, listen: false).initAudio();
+                              print("*********************************************");
+                              print(Provider.of<Audio_Provider>(context,listen: false).a1.index);
+                              print("*********************************************");
                               // Provider.of<Audio_Provider>(context,listen: false).nextSong();
                             },
                             icon: Icon(

@@ -27,7 +27,7 @@ class Audio_Provider extends ChangeNotifier {
       // playInBackground: PlayInBackground.disabledPause,
       autoStart: false,
     );
-    // totalDurationAudio();
+     totalDurationAudio();
   }
 
   Future<void> startButton() async {
@@ -46,12 +46,12 @@ class Audio_Provider extends ChangeNotifier {
     notifyListeners();
   }
 
-  // void totalDurationAudio() {
-  //   a1.assetsAudioPlayer!.current.listen((event) {
-  //     a1.totalDuration = event!.audio.duration;
-  //     notifyListeners();
-  //   });
-  // }
+  void totalDurationAudio() {
+    a1.assetsAudioPlayer!.current.listen((event) {
+      a1.totalDuration = event!.audio.duration;
+      notifyListeners();
+    });
+  }
 
   Future<void> nextSong() async {
     await a1.assetsAudioPlayer!.next();
@@ -69,8 +69,7 @@ class Audio_Provider extends ChangeNotifier {
   }
 
   addIndex() {
-    int length = SingerImage.length;
-    if (a1.index <= length) {
+    if (a1.index < 9) {
       a1.index++;
     } else {
       a1.index = 0;
@@ -79,7 +78,7 @@ class Audio_Provider extends ChangeNotifier {
   }
 
   subIndex() {
-    if (a1.index >= 0) {
+    if (a1.index > 0) {
       a1.index--;
     } else {
       a1.index = 9;
