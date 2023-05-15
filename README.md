@@ -63,7 +63,9 @@ enhance the knowledge and skills of IT students in mobile app development using 
  <img align = "left"  src = "https://github.com/SJaynesh/PR3_media_booster_app/assets/115562979/0bf408c7-921e-462d-9253-6b1f2c199eb0.jpg" width=22% height=35% >
  
  <img  src = "https://github.com/SJaynesh/PR3_media_booster_app/assets/115562979/9bd16aaf-79d7-4878-8630-1da90309837e.jpg" width=22% height=35% >
+  </P>
   
+  <P>
  <img align = "left"  src = "https://github.com/SJaynesh/PR3_media_booster_app/assets/115562979/4786b79c-59a8-4fea-ae4c-64e0690b38a5.jpg" width=22% height=35% >
  
  <img align = "left"  src = "https://github.com/SJaynesh/PR3_media_booster_app/assets/115562979/1d74526c-90ac-4e10-833d-2ed09301e2c5.jpg" width=22% height=35% >
@@ -71,14 +73,20 @@ enhance the knowledge and skills of IT students in mobile app development using 
  <img align = "left"  src = "https://github.com/SJaynesh/PR3_media_booster_app/assets/115562979/ebb143e1-dc43-411c-b07d-371d27715535.jpg" width=22% height=35% >
  
  <img  src = "https://github.com/SJaynesh/PR3_media_booster_app/assets/115562979/bdffa76f-9c79-4389-96e8-05efa3c73805.jpg" width=22% height=35% >
+  </P>
   
+  <P>
  <img align = "left"  src = "https://github.com/SJaynesh/PR3_media_booster_app/assets/115562979/bffdc5a5-2280-4a05-aada-f4f4cae6b4a4.jpg" width=22% height=35% >
  
- <imgalign = "left"  src = "https://github.com/SJaynesh/PR3_media_booster_app/assets/115562979/cbc74e9c-3a36-4ee6-9c6d-008dce91c289.jpg" width=22% height=35% >
+ <img align = "left"  src = "https://github.com/SJaynesh/PR3_media_booster_app/assets/115562979/cbc74e9c-3a36-4ee6-9c6d-008dce91c289.jpg" width=22% height=35% >
  
  <img align = "left"  src = "https://github.com/SJaynesh/PR3_media_booster_app/assets/115562979/febd43de-e7df-4b1a-ae7c-ae559edf9b2e.jpg" width=22% height=35% >
  
  <img  src = "https://github.com/SJaynesh/PR3_media_booster_app/assets/115562979/538e35e8-e14d-40ba-a7ce-3d3f42b385ab.jpg" width=22% height=35% >
+  
+  </p>
+  
+  <p>
   
  <img align = "left"  src = "https://github.com/SJaynesh/PR3_media_booster_app/assets/115562979/3f16f6aa-5cc5-4b76-9590-f184a927ebd4.jpg" width=22% height=35% >
  
@@ -88,6 +96,10 @@ enhance the knowledge and skills of IT students in mobile app development using 
  
  <img  src = "https://github.com/SJaynesh/PR3_media_booster_app/assets/115562979/6be72481-9819-42f0-a0f3-bc53bb567c99.jpg" width=22% height=35% >
   
+  </p>
+  
+  <p>
+  
  <img align = "left"  src = "https://github.com/SJaynesh/PR3_media_booster_app/assets/115562979/c3f6c148-1d1c-4aad-be0e-a5403d027d37.jpg" width=22% height=35% >
  
  <img align = "left"  src = "https://github.com/SJaynesh/PR3_media_booster_app/assets/115562979/b7924c10-8094-4ab2-a334-39b9ecdb516d.jpg" width=22% height=35% >
@@ -95,6 +107,8 @@ enhance the knowledge and skills of IT students in mobile app development using 
  <img align = "left"  src = "https://github.com/SJaynesh/PR3_media_booster_app/assets/115562979/dfc85073-d639-4b6c-8d22-8de117cb2cea.jpg" width=22% height=35% >
  
  <img   src = "https://github.com/SJaynesh/PR3_media_booster_app/assets/115562979/1b9b42dc-cd83-4460-8f68-98ae242ad58b.jpg" width=22% height=35% >
+  
+  </p>
   
  <img align = "left"  src = "https://github.com/SJaynesh/PR3_media_booster_app/assets/115562979/d8dd4425-e1fd-422e-ad54-e7226102123a.jpg" width=22% height=35% >
  
@@ -104,7 +118,9 @@ enhance the knowledge and skills of IT students in mobile app development using 
  
  <img   src = "https://github.com/SJaynesh/PR3_media_booster_app/assets/115562979/3af851a5-5b06-4be5-bf67-52ee9f745723.jpg" width=22% height=35% >
  
+  </p>
   
+  <p>
  <img align = "left"  src = "https://github.com/SJaynesh/PR3_media_booster_app/assets/115562979/c2089287-8274-4adc-b81f-1fe4c9a78809.jpg" width=22% height=35% >
  
  <img   src = "https://github.com/SJaynesh/PR3_media_booster_app/assets/115562979/cb1a3df4-c857-4518-8dee-a5f05731ef2f.jpg" width=22% height=35% >
