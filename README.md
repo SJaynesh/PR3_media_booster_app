@@ -54,6 +54,10 @@ enhance the knowledge and skills of IT students in mobile app development using 
 
 
 ### Photos
-![1](https://github.com/SJaynesh/PR3_media_booster_app/assets/115562979/a88981cd-0bdb-42c0-9c1f-32210fbe0f8d)
+
+<p>
+  <img src = "https://github.com/SJaynesh/PR3_media_booster_app/assets/115562979/a88981cd-0bdb-42c0-9c1f-32210fbe0f8d.png" width=22% height=35%>
+</p>
+
 
 
