@@ -55,11 +55,6 @@ enhance the knowledge and skills of IT students in mobile app development using 
 
 ### Photos
 
-
-  <img style="margin-right: 5px;"  src = "https://github.com/SJaynesh/PR3_media_booster_app/assets/115562979/a88981cd-0bdb-42c0-9c1f-32210fbe0f8d.jpg" width=22% height=35% >
-  
-  <img style="margin-right: 5px;"  src = "https://github.com/SJaynesh/PR3_media_booster_app/assets/115562979/a88981cd-0bdb-42c0-9c1f-32210fbe0f8d.jpg" width=22% height=35% >
-
-
-
-
+![ScreenShot1](https://github.com/SJaynesh/PR3_media_booster_app/assets/115562979/a88981cd-0bdb-42c0-9c1f-32210fbe0f8d.jpg)
+![ScreenShot2](https://github.com/SJaynesh/PR3_media_booster_app/assets/115562979/a88981cd-0bdb-42c0-9c1f-32210fbe0f8d.jpg)
+ 
