@@ -1,13 +1,6 @@
-import 'dart:async';
-
 import 'package:flutter/material.dart';
-import 'package:media_booster_app_code/Controllers/VideoPlayer_Provider.dart';
 import 'package:media_booster_app_code/Utills/all_Atributes.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:carousel_slider/carousel_slider.dart';
 import 'package:provider/provider.dart';
-
-import '../../Controllers/Audio_Provider.dart';
 import '../../Controllers/BottomNavigation_provider.dart';
 
 class HomePage extends StatefulWidget {
@@ -18,14 +11,8 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  CarouselController carouselController = CarouselController();
-  int i = 0;
-
   @override
   Widget build(BuildContext context) {
-    Size s = MediaQuery.of(context).size;
-    double h = s.height;
-    double w = s.width;
 
     return SafeArea(
       child: Scaffold(
@@ -63,7 +50,7 @@ class _HomePageState extends State<HomePage> {
         ),
         body: Componets.elementAt(
             Provider.of<BottomNavigation_provider>(context).B1.selectIndex),
-        backgroundColor: Color(0xff000022),
+        backgroundColor: Color(0xC7000A22),
       ),
     );
   }
